@@ -13,7 +13,6 @@ var todoSchema = new mongoose_1.Schema({
     status: {
         type: String,
         required: true,
-        default: false
     },
 }, { timestamps: true });
 exports.default = (0, mongoose_1.model)("Todo", todoSchema);

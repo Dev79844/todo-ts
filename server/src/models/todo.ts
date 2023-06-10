@@ -13,7 +13,6 @@ const todoSchema: Schema = new Schema({
     status:{
         type:String,
         required: true,
-        default: false
     },
 
 }, {timestamps: true})
